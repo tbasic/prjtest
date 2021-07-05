@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-config.dtd">
+    
+<configuration>
+   
+ 
+    <!-- MyBatis mapper 파일이 추가될 때마다 지정해줘야 . -->
+    <mappers>
+        <mapper resource="com/tech/spring_tx_board/dao/map/*.xml"/>
+        <mapper resource="com/tech/spring_tx_board/dao/mapper/*.xml"/>
+    </mappers>
+    
+</configuration>
